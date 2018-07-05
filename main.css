@@ -1,10 +1,20 @@
+/*Body styles*/
+
 #container {
+	margin: 50px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
 }
 
+.section {
+	border: 3px solid grey;
+	width: 100%;
+	padding: 10px;
+}
+
+/* Menu Bar */
 #menu {
 	display: flex;
 	justify-content: space-around;
@@ -31,10 +41,27 @@
 	color: white;
 }
 
+/* Logo Section*/
 
 
-
-.section {
-	border: 3px solid grey;
-	width: 100%;
+#boxLogo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
+
+h1 {
+	position: center;
+	background-color: red;
+	width: 120px;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+}
+
+span {
+	font-weight: bold;
+}
+
+
