@@ -9,7 +9,7 @@
 }
 
 .section {
-	border: 3px solid grey;
+	/*border: 3px solid grey;*/
 	width: 100%;
 	padding: 10px;
 }
@@ -68,10 +68,17 @@ span {
 /*Hypebeast Pictures Section*/
 
 #hypePics {
+	background-color: red;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+}
+
+img {
+	width: 400px;
+	height: 200px;
+	background-color: white;
 }
 
 .hidden {
@@ -93,6 +100,8 @@ span {
 }
 
 #shop {
+	background-color: red;
+	color: white;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
