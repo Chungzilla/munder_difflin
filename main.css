@@ -64,4 +64,16 @@ span {
 	font-weight: bold;
 }
 
+/*Hypebeast Pictures Section*/
+
+#hypePics {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
 
