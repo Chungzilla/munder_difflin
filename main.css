@@ -45,6 +45,7 @@
 
 
 #boxLogo {
+	height: 800px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -69,8 +70,27 @@ span {
 #hypePics {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
+}
+
+.hidden {
+	opacity: 0;
+}
+
+.show {
+	animation: fadeIn 1000ms;
+}
+
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
 
 
