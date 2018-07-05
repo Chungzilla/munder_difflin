@@ -83,6 +83,16 @@ span {
 }
 
 
+/* About the Hype section*/
+
+#about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
 @keyframes fadeIn {
 	0% {
 		opacity: 0;
@@ -92,6 +102,7 @@ span {
 		opacity: 1;
 	}
 }
+
 
 
 
