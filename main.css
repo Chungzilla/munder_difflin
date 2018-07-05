@@ -1,3 +1,40 @@
+#container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+#menu {
+	display: flex;
+	justify-content: space-around;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: red;
+	
+}
+
+#menu > a:link {
+	text-decoration: none;
+	color: white;
+	position: sticky;
+}
+
+#menu > a:hover {
+	background-color: red;
+	color: white;
+}
+
+#menu > a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
 .section {
-	border: 5px solid black;
+	border: 3px solid grey;
+	width: 100%;
 }
