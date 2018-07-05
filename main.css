@@ -92,6 +92,13 @@ span {
 	align-items: center;
 }
 
+#shop {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 
 @keyframes fadeIn {
 	0% {
